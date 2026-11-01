@@ -1,0 +1,32 @@
+# ==========================================
+# CRÍTICO: VARIÁVEIS DE AMBIENTE & SEGREDO
+# ==========================================
+backend/.env
+*.env
+
+# ==========================================
+# PYTHON / BACKEND
+# ==========================================
+backend/__pycache__/
+*.py[cod]
+backend/.venv/
+backend/venv/
+
+# ==========================================
+# NODE / MOBILE / EXPO
+# ==========================================
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/.claude/
+.claude/
+*.log
+
+# ==========================================
+# EDITORES E SISTEMA OPERACIONAL
+# ==========================================
+.vscode/
+mobile/.vscode/
+.DS_Store
+Thumbs.db
